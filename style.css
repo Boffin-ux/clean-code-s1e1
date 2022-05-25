@@ -1,4 +1,11 @@
 /* Basic Style */
+* {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
 ul {
   margin: 0;
   padding: 0px;
@@ -40,7 +47,7 @@ button{
   flex-grow: 1;
 }
 .add-task__title {
-  
+  margin: 16px 0;
 }
 .add-task__wrap {
   display: flex;
